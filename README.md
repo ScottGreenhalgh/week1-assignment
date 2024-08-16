@@ -1,17 +1,17 @@
 # week1-assignment
 
-recreate the SpaceX website
+Recreation the https://spacey-kappa.vercel.app/ website
 
-<!-- Reflection
+Reflection
 
-Main Thoughts
+Initial Thoughts
 
 Creating the project initially was an interesting challenge.
 Throughout the week we dabbled with various different css elements
 which made creating the page itself relatively easy.
 Each component covered throughout the week was in one way or
 another used during this project.Flexbox and the positioning in CSS made
- structuring where each element sat on the page very easy to configure.
+structuring where each element sat on the page very easy to configure.
 
 In terms of HTML, since this was a recreation of an existing page, this
 part was relatively simple. All the content needed was already avaliable,
@@ -72,5 +72,3 @@ Conclusion
 
 Overall I believe the recreation of the sample page I created is very
 similar to the sample given. There are some very slight text size differences.
-
--->
