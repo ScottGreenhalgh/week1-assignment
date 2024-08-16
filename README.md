@@ -43,6 +43,12 @@ the navigation element would wrap to the next line, damaging the style of
 the page. This was not present on the sample, so I added prevented text
 wrapping for this element.
 
+Sources
+
+I sourced a materials for this project. Google images for the background
+images and soundimage.org for the royalty free audio sample. I then obtained
+the social media icons from tablericons.com
+
 Possible improvements
 
 Another avenue I could've explored was text-transform: uppercase;

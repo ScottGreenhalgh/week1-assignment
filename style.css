@@ -112,3 +112,13 @@ footer {
   padding: 30px;
   font-family: sans-serif;
 }
+
+.icon-tabler-brand-meta {
+  position: absolute;
+  right: 30px;
+}
+
+.icon-tabler-brand-x {
+  position: absolute;
+  right: 100px;
+}
