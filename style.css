@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  scroll-behavior: smooth;
 }
-
+/* ------- Navigation ---------- */
 .nav-box {
   display: flex;
   position: fixed;
@@ -15,21 +16,25 @@
   top: 5px;
   z-index: 100;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 nav {
   padding-top: 15px;
 }
 
-a {
+.nav-buttons {
   color: white;
   text-decoration: none;
   padding-top: 40px;
+  padding-right: 30px;
 }
 
-a:hover {
+.nav-buttons:hover {
   text-decoration: underline;
 }
+
+/* ------- Text ---------- */
 
 h3 {
   padding-bottom: 20px;
@@ -46,6 +51,17 @@ h2 {
   padding-right: 30px;
 }
 
+.text-format {
+  position: absolute;
+  bottom: 200px;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  padding-left: 40px;
+}
+
+/* ------- Buttons ---------- */
+
 .button-meta {
   border: solid 2px white;
   background-color: transparent;
@@ -54,6 +70,7 @@ h2 {
   font-size: 15px;
   font-family: sans-serif;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .button-meta:hover {
@@ -61,6 +78,8 @@ h2 {
   background-color: white;
   color: black;
 }
+
+/* --------- Images ------------ */
 
 .feature {
   display: flex;
@@ -83,14 +102,7 @@ h2 {
   background-image: url(https://images.hdqwalls.com/wallpapers/earth-space-view-4k-62.jpg);
 }
 
-.text-format {
-  position: absolute;
-  bottom: 200px;
-  color: white;
-  font-size: 30px;
-  font-family: sans-serif;
-  padding-left: 40px;
-}
+/* --------- Footer ---------- */
 
 footer {
   background-color: black;
