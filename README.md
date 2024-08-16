@@ -43,6 +43,13 @@ the navigation element would wrap to the next line, damaging the style of
 the page. This was not present on the sample, so I added prevented text
 wrapping for this element.
 
+There is one current bug. The audio I'm grabbing doesn't always load with
+the page. It sometimes does and other times doesn't. Likely an issue with
+my chosen source. I attempted adding the audio to Google Drive and importing
+that this way (found at https://drive.google.com/file/d/1wHXKc91ivGzG_Mb9kxvee7AuKN20LozT/preview) however this method didn't work
+at all. In future, I will probably consider adding local media to the
+project instead.
+
 Sources
 
 I sourced a materials for this project. Google images for the background
