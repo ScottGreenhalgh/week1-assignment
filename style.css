@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.nav-box {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top: 30px;
+  padding-left: 30px;
+  top: 5px;
+  z-index: 100;
+  font-weight: bold;
+}
+
+nav {
+  padding-top: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding-top: 40px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+h2 {
+  padding-bottom: 40px;
+}
+
+#title-text {
+  font-size: 40px;
+  padding-right: 30px;
+}
+
+.button-meta {
+  border: solid 2px white;
+  background-color: transparent;
+  padding: 15px 150px 15px 30px;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.button-meta:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.feature {
+  display: flex;
+  height: 100svh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.space {
+  background-image: url(https://wallup.net/wp-content/uploads/2018/09/26/670127-space-outer-universe-stars-photography-detail-astronomy-nasa-hubble.jpg);
+}
+
+.space2 {
+  background-image: url(https://wallpapercave.com/wp/MWlNRPT.jpg);
+}
+
+.space3 {
+  background-image: url(https://images.hdqwalls.com/wallpapers/earth-space-view-4k-62.jpg);
+}
+
+.text-format {
+  position: absolute;
+  bottom: 200px;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  padding-left: 40px;
+}
+
+footer {
+  background-color: black;
+  color: grey;
+  font-size: 15px;
+  text-align: center;
+  padding: 30px;
+  font-family: sans-serif;
+}
